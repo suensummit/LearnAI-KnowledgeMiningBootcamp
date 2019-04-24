@@ -213,7 +213,7 @@ Using the Azure Search service created in the previous lab, you will use the "Im
 
     + **Searchable** For searching on these fields. In a parallel with the SQL language, this is the `HAVING clause`
   
-    + **Analyzer:** For dictionary matching. The Analyzer takes the terms a user enters and works to find the best matching terms in the Index. Azure Search includes analyzers that are used in technologies like Bing and Office that have deep understanding of 56 languages. For the full list, click [here](https://docs.microsoft.com/en-us/rest/api/searchservice/language-support). It is a good idea to add analyzer for the **searchchable** fields, for a better user experience
+    + **Analyzer:** For dictionary matching. The Analyzer takes the terms a user enters and works to find the best matching terms in the Index. Azure Search includes analyzers that are used in technologies like Bing and Office that have deep understanding of 56 languages. For the full list, click [here](https://docs.microsoft.com/en-us/rest/api/searchservice/language-support). It is a good idea to add analyzer for the **searchable** fields, for a better user experience
 
     + **Suggester:** For suggestions while the user is typing. It is a good idea to add suggester for string **filterable** fields, for a better user experience
 
